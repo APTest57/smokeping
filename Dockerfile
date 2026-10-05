@@ -5,4 +5,4 @@ ENV TZ=UTC
 ENV PUID=1000
 ENV PGID=1000
 # Expose the default Apache/CGI port
-EXPOSE 80
+EXPOSE 8080
