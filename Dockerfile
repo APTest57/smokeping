@@ -16,11 +16,10 @@ RUN \
     sudo \
     ttf-dejavu && \
  echo "abc ALL=(ALL) NOPASSWD: /usr/bin/traceroute" >> /etc/sudoers.d/traceroute && \
- sed -i 's#src="/cropper/#/src="cropper/#' /etc/smokeping/basepage.html && \
- sed -i 's/^Listen 80$/Listen 8080/' /etc/apache2/httpd.conf
+ sed -i 's#src="/cropper/#/src="cropper/#' /etc/smokeping/basepage.html
 
 # add local files
 
 # ports and volumes
-EXPOSE 8080
+EXPOSE 80
 VOLUME /config /data
