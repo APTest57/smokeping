@@ -1,6 +1,8 @@
 FROM lscr.io/linuxserver/smokeping:latest
-RUN apk add --no-cache sed
-RUN sed -i 's/^Listen 80$/Listen 8080/' /etc/apache2/httpd.conf 
+RUN mkdir -p /custom-cont-init.d && \
+    echo '#!/bin/with-contenv bash' > /custom-cont-init.d/change-port.sh && \
+    echo 'sed -i "s/Listen 80/Listen 8080/g" /config/httpd.conf' >> /custom-cont-init.d/change-port.sh && \
+    chmod +x /custom-cont-init.d/change-port.sh
 # Set timezone and environment variables if needed
 ENV TZ=UTC
 ENV PUID=1000
