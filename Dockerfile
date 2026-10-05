@@ -7,6 +7,7 @@ RUN mkdir -p /custom-cont-init.d && \
     chmod +x /custom-cont-init.d/change-port.sh
 COPY Targets /config/
 COPY Probes /config/
+COPY General /config/
 COPY rclone-restore.sh /custom-cont-init.d/01-rclone-restore.sh
 RUN chmod +x /custom-cont-init.d/01-rclone-restore.sh
 COPY rclone-backup.sh /etc/periodic/15min/rclone-backup
