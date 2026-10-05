@@ -16,4 +16,3 @@ ENV PUID=1000
 ENV PGID=1000
 # Expose the default Apache/CGI port
 EXPOSE 8080
-ENTRYPOINT ["/entrypoint.sh"]
