@@ -4,6 +4,6 @@ FROM lscr.io/linuxserver/smokeping:latest
 ENV TZ=UTC
 ENV PUID=1000
 ENV PGID=1000
-
+ENV PORT=80
 # Expose the default Apache/CGI port
 EXPOSE 80
