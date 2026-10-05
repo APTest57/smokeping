@@ -4,6 +4,7 @@ RUN mkdir -p /custom-cont-init.d && \
     echo 'sed -i "s/Listen 80/Listen 8080/g" /config/httpd.conf' >> /custom-cont-init.d/change-port.sh && \
     chmod +x /custom-cont-init.d/change-port.sh
 COPY Targets /config/
+COPY Probes /config/
 # Set timezone and environment variables if needed
 ENV TZ=UTC
 ENV PUID=1000
