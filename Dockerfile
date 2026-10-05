@@ -1,4 +1,5 @@
 FROM lscr.io/linuxserver/smokeping:latest
+RUN apk add --no-cache sed
 RUN sed -i 's/^Listen 80$/Listen 8080/' /etc/apache2/httpd.conf 
 # Set timezone and environment variables if needed
 ENV TZ=UTC
