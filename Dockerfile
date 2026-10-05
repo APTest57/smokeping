@@ -1,7 +1,5 @@
 FROM lscr.io/linuxserver/smokeping:latest
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends rclone && \
-    rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache rclone
 # la conf apache n'est pas encore accessible -> creation d'un script qui fera la modif plus tard
 RUN mkdir -p /custom-cont-init.d && \
     echo '#!/bin/with-contenv bash' > /custom-cont-init.d/change-port.sh && \
