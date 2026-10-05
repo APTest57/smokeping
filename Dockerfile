@@ -1,14 +1,14 @@
 FROM lscr.io/linuxserver/smokeping:latest
 RUN apk add --no-cache rclone
-COPY Targets /config/
-COPY Probes /config/
-COPY General /config/
+
 # la conf apache n'est pas encore accessible -> creation d'un script qui fera la modif plus tard
 RUN mkdir -p /custom-cont-init.d && \
     echo '#!/bin/with-contenv bash' > /custom-cont-init.d/change-port.sh && \
-    # echo 'sed -i "s/127.0.0.1/$APP_ID.cleverapps.io/g" /config/General' >> /custom-cont-init.d/change-port.sh && \
     echo 'sed -i "s/Listen 80/Listen 8080/g" /config/httpd.conf' >> /custom-cont-init.d/change-port.sh && \
     chmod +x /custom-cont-init.d/change-port.sh
+COPY Targets /config/
+COPY Probes /config/
+COPY General /config/
 COPY rclone-restore.sh /custom-cont-init.d/01-rclone-restore.sh
 RUN chmod +x /custom-cont-init.d/01-rclone-restore.sh
 COPY rclone-backup.sh /etc/periodic/15min/rclone-backup
