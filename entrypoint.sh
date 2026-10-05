@@ -18,14 +18,14 @@ rclone mkdir cellar:${BUCKET_NAME}
 
 # 2. Restaurer les fichiers RRD depuis Cellar au démarrage
 echo "Restauration des fichiers RRD depuis Cellar..."
-rclone sync cellar:${BUCKET_NAME} /config/data
+rclone sync cellar:${BUCKET_NAME} /data
 
 # 3. Lancer une tâche de synchronisation périodique en arrière-plan (toutes les 15 min)
 (
   while true; do
     sleep 900
     echo "Sauvegarde des fichiers RRD vers Cellar..."
-    rclone sync /config/data cellar:${BUCKET_NAME}
+    rclone sync /data cellar:${BUCKET_NAME}
   done
 ) &
 
