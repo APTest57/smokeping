@@ -1,5 +1,5 @@
 FROM lscr.io/linuxserver/smokeping:latest
-RUN sed -i 's/Listen 80/Listen 8080/g' /etc/apache2/httpd.conf 
+RUN sed -i 's/^Listen 80$/Listen 8080/' /etc/apache2/httpd.conf 
 # Set timezone and environment variables if needed
 ENV TZ=UTC
 ENV PUID=1000
