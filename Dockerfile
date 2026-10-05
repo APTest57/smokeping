@@ -8,6 +8,7 @@ RUN mkdir -p /custom-cont-init.d && \
 COPY Targets /config/
 COPY Probes /config/
 COPY General /config/
+RUN sed -i "s/127.0.0.1/$APP_ID/" /config/General
 COPY rclone-restore.sh /custom-cont-init.d/01-rclone-restore.sh
 RUN chmod +x /custom-cont-init.d/01-rclone-restore.sh
 COPY rclone-backup.sh /etc/periodic/15min/rclone-backup
