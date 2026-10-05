@@ -6,6 +6,8 @@ RUN mkdir -p /custom-cont-init.d && \
     chmod +x /custom-cont-init.d/change-port.sh
 COPY Targets /config/
 COPY Probes /config/
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 # Set timezone and environment variables if needed
 ENV TZ=UTC
 ENV PUID=1000
