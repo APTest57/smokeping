@@ -6,7 +6,7 @@ mailhost = my.mail.host
 # NOTE: do not put the Image Cache below cgi-bin
 # since all files under cgi-bin will be executed ... this is not
 # good for images.
-cgiurl   = "https://$APP_ID:8090/smokeping/smokeping.cgi"
+cgiurl   = https://127.0.0.1:8090/smokeping/smokeping.cgi
 # specify this to get syslog logging
 syslogfacility = local0
 # each probe is now run in its own process
