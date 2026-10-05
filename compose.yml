@@ -14,5 +14,5 @@ services:
       - /path/to/smokeping/config:/config
       - /path/to/smokeping/data:/data
     ports:
-      - 80:80
+      - 8080:80
     restart: unless-stopped
