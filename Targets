@@ -24,6 +24,8 @@ host=console.cc.deepsovereigncloud.eu
 
 + curl
 probe = Curl
+menu = cc.deepsovereigncloud Sites
+title = cc.deepsovereigncloud Sites
 ++ console
 
 host = console.cc.deepsovereigncloud.eu
