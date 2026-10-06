@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUCKET_NAME="smokeping-rrd-data-s3"
+BUCKET_NAME="smokeping-rdd-data-s3"
 
 echo "=== [Cellar] Initializing S3 Config ==="
 mkdir -p /root/.config/rclone
