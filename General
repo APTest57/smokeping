@@ -6,7 +6,7 @@ mailhost = my.mail.host
 # NOTE: do not put the Image Cache below cgi-bin
 # since all files under cgi-bin will be executed ... this is not
 # good for images.
-cgiurl   = https://app-c4842532-b1e4-418e-a330-9100acbf1d84.cleverapps.io/smokeping/smokeping.cgi
+cgiurl   = https://app_c7b6a85c-2f60-41ef-b429-fc2b2a9c140a.cleverapps.io/smokeping/smokeping.cgi
 # specify this to get syslog logging
 syslogfacility = local0
 # each probe is now run in its own process
