@@ -29,7 +29,6 @@ host = console.cc.deepsovereigncloud.eu
 urlformat = https://%host%/
 pings = 5
 
-probe = Curl
 host = doom.cc.deepsovereigncloud.eu
 urlformat = https://%host%/
 pings = 5
