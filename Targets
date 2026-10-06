@@ -23,14 +23,16 @@ title=console.cc.deepsovereigncloud.eu
 host=console.cc.deepsovereigncloud.eu
 
 + curl
+
 probe = Curl
 menu = cc.deepsovereigncloud Sites
 title = cc.deepsovereigncloud Sites
-++ console
 
+++ console
 host = console.cc.deepsovereigncloud.eu
 urlformat = https://%host%/
 pings = 5
+
 ++ doom
 host = doom.cc.deepsovereigncloud.eu
 urlformat = https://%host%/
