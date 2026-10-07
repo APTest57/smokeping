@@ -46,7 +46,7 @@ menu = DNS
 title = DNS
 
 ++ console
-host = console.cc.deepsovereigncloud.eu
+server = console.cc.deepsovereigncloud.eu
 
 ++ domain
-host = domain.cc.deepsovereigncloud.eu
+server = domain.cc.deepsovereigncloud.eu
