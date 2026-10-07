@@ -4,38 +4,21 @@ probe = FPing
 
 menu = Top
 title = Network Latency Grapher
-#remark = Welcome to the SmokePing website of WORKS Company. \
-#         Here you will learn all about the latency of our network.
-
-+ InternetSites
-
-menu = Internet Sites
-title = Internet Sites
-
-++ linuxserverio
-menu = linuxserver.io
-title = linuxserver.io
-host = linuxserver.io
-
-++ clever-cloud
-menu=console.cc.deepsovereigncloud.eu
-title=console.cc.deepsovereigncloud.eu
-host=console.cc.deepsovereigncloud.eu
 
 + curl
 
 probe = Curl
-menu = cc.deepsovereigncloud Sites
-title = cc.deepsovereigncloud Sites
+menu = CURL
+title = CURL
 
 ++ console
-host = console.cc.deepsovereigncloud.eu
-urlformat = https://%host%/
+host = console
+urlformat = https://%host%.cc.deepsovereigncloud.eu/
 pings = 5
 
 ++ doom
-host = doom.cc.deepsovereigncloud.eu
-urlformat = https://%host%/
+host = doom
+urlformat = https://%host%.cc.deepsovereigncloud.eu/
 pings = 5
 
 
