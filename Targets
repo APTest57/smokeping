@@ -44,9 +44,18 @@ pings = 5
 menu = DNS
 title = DNS
 
+++ console
 menu = DNS Lookup
 title = DNS Lookup for console.cc.deepsovereigncloud.eu
 probe = DNS
 lookup = console.cc.deepsovereigncloud.eu
+server = 8.8.8.8
+pings = 5
+
+++ domain
+menu = DNS Lookup
+title = DNS Lookup for domain.cc.deepsovereigncloud.eu
+probe = DNS
+lookup = domain.cc.deepsovereigncloud.eu
 server = 8.8.8.8
 pings = 5
