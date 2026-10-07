@@ -41,6 +41,8 @@ pings = 5
 
 + dns
 
+probe = DNS
+
 menu = DNS
 title = DNS
 
