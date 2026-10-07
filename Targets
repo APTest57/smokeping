@@ -12,11 +12,13 @@ menu = CURL
 title = CURL
 
 ++ console
+title = console
 host = console.cc.deepsovereigncloud.eu
 urlformat = https://%host%/
 pings=5
 
 ++ doom
+title = doom
 host = doom.cc.deepsovereigncloud.eu
 urlformat = https://%host%/
 pings=5
