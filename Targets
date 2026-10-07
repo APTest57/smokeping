@@ -1,7 +1,5 @@
 *** Targets ***
 
-probe = FPing
-
 menu = Top
 title = Network Latency Grapher
 
