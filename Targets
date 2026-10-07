@@ -37,3 +37,16 @@ pings = 5
 host = doom.cc.deepsovereigncloud.eu
 urlformat = https://%host%/
 pings = 5
+
+
++ dns
+
+menu = DNS
+title = DNS
+
+menu = DNS Lookup
+title = DNS Lookup for console.cc.deepsovereigncloud.eu
+probe = DNS
+lookup = console.cc.deepsovereigncloud.eu
+server = 8.8.8.8
+pings = 5
