@@ -46,7 +46,10 @@ menu = DNS
 title = DNS
 
 ++ console
-server = console.cc.deepsovereigncloud.eu
+server = 8.8.8.8
+lookup = console.cc.deepsovereigncloud.eu
 
 ++ domain
-server = domain.cc.deepsovereigncloud.eu
+server = 8.8.8.8
+lookup = domain.cc.deepsovereigncloud.eu
+
