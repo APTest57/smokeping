@@ -45,17 +45,7 @@ menu = DNS
 title = DNS
 
 ++ console
-menu = DNS Lookup
-title = DNS Lookup for console.cc.deepsovereigncloud.eu
-probe = DNS
-lookup = console.cc.deepsovereigncloud.eu
-server = 8.8.8.8
-pings = 5
+host = console.cc.deepsovereigncloud.eu
 
 ++ domain
-menu = DNS Lookup
-title = DNS Lookup for domain.cc.deepsovereigncloud.eu
-probe = DNS
-lookup = domain.cc.deepsovereigncloud.eu
-server = 8.8.8.8
-pings = 5
+host = domain.cc.deepsovereigncloud.eu
