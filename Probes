@@ -9,7 +9,6 @@ protocol = 6
 
 + DNS
 binary = /usr/bin/dig
-lookup = google.com
 pings = 5
 step = 15
 
