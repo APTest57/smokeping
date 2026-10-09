@@ -50,8 +50,8 @@ menu = AnotherDNS
 title = AnotherDNS
 
 ++ consoleA
-menu = console
-title = console
+menu = consoleA
+title = consoleA
 host = dns.google
 expect_text = 185.8.237.5
 lookup = console.cc.deepsovereigncloud.eu
@@ -64,8 +64,8 @@ timeout = 5
 
 
 ++ consoleB
-menu = console
-title = console
+menu = consoleB
+title = consoleB
 host = dns.google
 expect_text = 185.8.237.6
 lookup = console.cc.deepsovereigncloud.eu
