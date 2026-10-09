@@ -51,9 +51,9 @@ title = AnotherDNS
 
 ++ console
 menu = console
-host = console.cc.deepsovereigncloud.eu
+host = dns.google
 #expect_text = 185.8.237.6
-lookup = dns.google
+lookup = console.cc.deepsovereigncloud.eu
 mininterval = 0.5
 port = 53
 recordtype = A
@@ -63,9 +63,9 @@ timeout = 5
 
 ++ domain
 menu = domain
-host = domain.cc.deepsovereigncloud.eu
+host = dns.google
 #expect_text = 146.0.164.86
-lookup = dns.google
+lookup = domain.cc.deepsovereigncloud.eu
 mininterval = 0.5
 port = 53
 recordtype = A
