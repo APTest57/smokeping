@@ -49,7 +49,21 @@ probe = AnotherDNS
 menu = AnotherDNS
 title = AnotherDNS
 
-++ console
+++ consoleA
+menu = console
+title = console
+host = dns.google
+expect_text = 185.8.237.5
+lookup = console.cc.deepsovereigncloud.eu
+mininterval = 0.5
+port = 53
+recordtype = A
+require_answers = 0
+require_noerror = 0
+timeout = 5
+
+
+++ consoleB
 menu = console
 title = console
 host = dns.google
