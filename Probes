@@ -26,3 +26,9 @@ step = 30
 pings = 5
 urlformat = http://%host%/
 timeout = 15
+
++AnotherDNS
+forks = 5
+offset = 50%
+step = 300
+
