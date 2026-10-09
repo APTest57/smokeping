@@ -31,4 +31,4 @@ timeout = 15
 forks = 5
 offset = 50%
 step = 15
-
+protocol = udp
