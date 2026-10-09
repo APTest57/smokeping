@@ -30,5 +30,5 @@ timeout = 15
 +AnotherDNS
 forks = 5
 offset = 50%
-step = 300
+step = 15
 
