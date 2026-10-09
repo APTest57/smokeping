@@ -50,6 +50,7 @@ menu = AnotherDNS
 title = AnotherDNS
 
 ++console
+8.8.8.8
 lookup = console.cc.deepsovereigncloud.eu
 mininterval = 0.5
 pings = 5
@@ -60,6 +61,7 @@ require_noerror = 0
 timeout = 5
 
 ++ domain
+host = 8.8.8.8
 lookup = domain.cc.deepsovereigncloud.eu
 mininterval = 0.5
 pings = 5
