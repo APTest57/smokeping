@@ -50,6 +50,7 @@ menu = AnotherDNS
 title = AnotherDNS
 
 ++ console
+menu = console
 host = console.cc.deepsovereigncloud.eu
 expect_text = 185.8.237.6
 lookup = 8.8.8.8
@@ -61,6 +62,7 @@ require_noerror = 0
 timeout = 5
 
 ++ domain
+menu = domain
 host = domain.cc.deepsovereigncloud.eu
 expect_text = 146.0.164.86
 lookup = 8.8.8.8
