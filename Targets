@@ -43,3 +43,28 @@ host = domain
 server = 8.8.8.8
 lookup = domain.cc.deepsovereigncloud.eu
 
++ AnotherDNS
+
+probe = AnotherDNS
+menu = AnotherDNS
+title = AnotherDNS
+
+++console
+lookup = console.cc.deepsovereigncloud.eu
+mininterval = 0.5
+pings = 5
+port = 53
+recordtype = A
+require_answers = 0
+require_noerror = 0
+timeout = 5
+
+++ domain
+lookup = domain.cc.deepsovereigncloud.eu
+mininterval = 0.5
+pings = 5
+port = 53
+recordtype = A
+require_answers = 0
+require_noerror = 0
+timeout = 5
