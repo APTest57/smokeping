@@ -49,7 +49,7 @@ probe = AnotherDNS
 menu = AnotherDNS
 title = AnotherDNS
 
-++console
+++ console
 host = console.cc.deepsovereigncloud.eu
 expect_text = 185.8.237.6
 lookup = 8.8.8.8
