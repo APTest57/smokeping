@@ -52,7 +52,7 @@ title = AnotherDNS
 ++ console
 menu = console
 title = console
-host = cc.deepsovereigncloud.eu
+host = dns.google
 #expect_text = 185.8.237.6
 lookup = console.cc.deepsovereigncloud.eu
 mininterval = 0.5
@@ -65,7 +65,7 @@ timeout = 5
 ++ domain
 menu = domain
 title = domain
-host = cc.deepsovereigncloud.eu
+host = dns.google
 #expect_text = 146.0.164.86
 lookup = domain.cc.deepsovereigncloud.eu
 mininterval = 0.5
